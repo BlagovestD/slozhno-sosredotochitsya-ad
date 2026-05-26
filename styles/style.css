@@ -53,11 +53,11 @@
 }
 
 .header {
-  display: grid;
-  grid-template-rows: min-content 1fr min-content 1fr;
-  min-block-size: 668px;
-  block-size: 100vh;
-  padding: var(--page-padding);
+    display: grid;
+    grid-template-rows: 1fr min-content 1fr;
+    min-block-size: 668px;
+    block-size: 100vh;
+    padding: var(--page-padding);
 }
 
 .header__record {
@@ -236,10 +236,6 @@
 
   .page-title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-  }
-
-  .header {
-    grid-template-rows: min-content 1fr min-content 1fr;
   }
 
   .header__theme-menu {
