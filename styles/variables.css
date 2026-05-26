@@ -1,17 +1,21 @@
-/* Переменные для проекта. Основная тема — тёмная. */
-
 :root {
-  --main-font: 'IBM Plex Mono', monospace;
-  --page-padding: 10px;
-  --page-background-color: #000028;
-  --page-background-image: url('../images/cover-image-dark.png');
+  --background-image: url("../images/cover-image-dark.png");
   --accent-color: #ff0070;
-  --title-color: #db00ff;
-  --title-shadow-color: #ff0070;
+  --accent-color-opacity: #ff007066;
   --text-color: #f1b2ce;
-  --decorated-text-color: #000028;
-  --section-title-color: #ff0070;
-  --button-color: #ff0070;
-  --button-hover-border-color: rgb(255 0 112 / 0.4);
-  --record-display: flex;
+  --decoration-color: var(--accent-color);
+  --background-color: #000028;
+  --header1-color: #db00ff;
+  --header2-color: var(--accent-color);
+  --header3-color: var(--background-color);
+  --font-family: 'IBM Plex mono', monospace;
+  --regular-font-size: 18px;
+  --small-line-height: 83%;
+  --regular-line-height: 100%;
+  --large-line-height: 130%;
+  --title-line-height: 82.5%;
+  --bold-font-weight: 700;
+  --regular-font-weight: 400;
+  --font-style: normal;
+  --is-light: visible;
 }

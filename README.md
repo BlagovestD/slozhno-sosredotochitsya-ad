@@ -1,0 +1,1 @@
+https://github.com/BlagovestD/slozhno-sosredotochitsya-ad.git

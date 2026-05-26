@@ -1,13 +1,7 @@
-/* Глобальные стили для проекта, их можно дополнять и менять по желанию */
-
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 body {
@@ -35,11 +29,6 @@ ul {
 picture {
   margin: 0;
   padding: 0;
-}
-
-img {
-  display: block;
-  max-inline-size: 100%;
 }
 
 button,
