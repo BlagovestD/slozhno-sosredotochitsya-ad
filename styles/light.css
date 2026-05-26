@@ -1,0 +1,31 @@
+/* Принудительная и автоматическая светлая тема. */
+
+:root.theme-light {
+  --page-background-color: #fff1f7;
+  --page-background-image: url('../images/cover-image-light.png');
+  --accent-color: #ff8dcb;
+  --title-color: #ffc2e6;
+  --title-shadow-color: #ff8dcb;
+  --text-color: #353430;
+  --decorated-text-color: #353430;
+  --section-title-color: #353430;
+  --button-color: #353430;
+  --button-hover-border-color: rgb(50 49 45 / 0.4);
+  --record-display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --page-background-color: #fff1f7;
+    --page-background-image: url('../images/cover-image-light.png');
+    --accent-color: #ff8dcb;
+    --title-color: #ffc2e6;
+    --title-shadow-color: #ff8dcb;
+    --text-color: #353430;
+    --decorated-text-color: #353430;
+    --section-title-color: #353430;
+    --button-color: #353430;
+    --button-hover-border-color: rgb(50 49 45 / 0.4);
+    --record-display: none;
+  }
+}

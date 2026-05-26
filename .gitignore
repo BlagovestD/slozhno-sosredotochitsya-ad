@@ -1,0 +1,23 @@
+﻿# OS files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# Dependencies / build output
+node_modules/
+dist/
+build/
+
+# Visual Studio cache
+.vs/

@@ -1,0 +1,15 @@
+/* Принудительная тёмная тема. */
+
+:root.theme-dark {
+  --page-background-color: #000028;
+  --page-background-image: url('../images/cover-image-dark.png');
+  --accent-color: #ff0070;
+  --title-color: #db00ff;
+  --title-shadow-color: #ff0070;
+  --text-color: #f1b2ce;
+  --decorated-text-color: #000028;
+  --section-title-color: #ff0070;
+  --button-color: #ff0070;
+  --button-hover-border-color: rgb(255 0 112 / 0.4);
+  --record-display: flex;
+}
